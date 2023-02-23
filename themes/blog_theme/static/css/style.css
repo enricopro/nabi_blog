@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Futura";
+  src: url("fonts/Futura.ttf") format("truetype");
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+body {
+  background-color: #1d1e20;
+  font-family: 'Futura', sans-serif;
+  color: #9b9c9d;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #dadadb;
+}
+
+p {
+  line-height: 1.7;
+}
+
+a {
+  color: #dadadb;
+  text-decoration: none;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one-third {
+  width: 33.33333333333333%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.header-icon {
+  margin-left: 10px;
+}
+
+/* About */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Main */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #2d2e30;
+}
+
+article time {
+  font-size: small;
+  margin-top: 10px;
+}
+
+.summary-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 15%;
+  margin-bottom: 20px;
+}
