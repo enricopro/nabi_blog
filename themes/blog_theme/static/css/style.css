@@ -30,6 +30,14 @@ a {
   text-decoration: none;
 }
 
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 /* Header */
 .header {
   display: flex;
@@ -57,10 +65,12 @@ a {
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 25px;
 }
 
 /* Main */
 main {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,22 +78,39 @@ main {
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
-article {
+.article-list {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-left: 30px;
-  padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 8px;
   margin-bottom: 15px;
   border: 1px solid #2d2e30;
+}
+
+.article-list:hover {
+  background-color: #2d2e30;
+  transition: all 0.2s ease-in-out;
+}
+
+.article-list a {
+  margin-left: 30px;
+}
+
+.article-single {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 article time {
@@ -98,14 +125,12 @@ article time {
 
 /* Footer */
 footer {
-  position: relative;
-  bottom: 0;
+  margin-top: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
-  margin-top: 60px;
+
 }
 
 .icon-container {
@@ -115,4 +140,22 @@ footer {
   flex-direction: row;
   width: 15%;
   margin-bottom: 20px;
+}
+
+i:hover {
+  opacity: 0.7;
+  transition: all;
+}
+
+@media screen and (max-width: 1024px) {
+  .icon-container {
+    width: 35%;
+  }
+}
+
+/* define the rule for smartphone screen and lower dimensions screen*/
+@media screen and (max-width: 480px) {
+  .icon-container {
+    width: 50%;
+  }
 }
