@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://blog.nabi.technology/'
 languageCode = 'en-us'
 title = 'Nabi Blog'
 theme = 'blog_theme'
