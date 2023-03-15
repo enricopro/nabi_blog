@@ -121,8 +121,6 @@ The Tanto, the Embassy Pro and Cubit can use NVMe disks that are much more perfo
 
 Sources:
 
-- [Rock Pro speed](https://forum.pine64.org/showthread.php?tid=12121)
-
 - [Raspberry Pi 4 speed](https://www.tomshardware.com/news/raspberry-pi-4-ssd-test,39811.html)
 
 ---
