@@ -81,7 +81,7 @@ Cubit has a much greater height due to the capacity to hold two SSD disks and a 
 
 It is not possible to directly compare an ARM architecture with an x86 architecture; only [estimates are possible](https://superuser.com/questions/1579497/how-does-a-raspberry-pi-4-truly-compare-against-a-modern-desktop-cpu). Comparing the other three is instead very straightforward.
 
-![](/home/filippo/.var/app/com.github.marktext.marktext/config/marktext/images/2023-03-07-15-39-57-image.png)
+![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*bikmZ1PsRijtLkD6hdEOUw.png)
 
 Although these benchmarks are not perfect, they give a good approximation of the performance that can be expected in practice.
 
