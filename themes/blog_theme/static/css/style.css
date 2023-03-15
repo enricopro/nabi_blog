@@ -30,6 +30,12 @@ a {
   text-decoration: none;
 }
 
+hr {
+  height: 40px;
+  background-color: transparent;
+  border: none;
+}
+
 .container {
   min-height: 100vh;
   display: flex;
@@ -81,6 +87,13 @@ main {
   margin-bottom: 40px;
 }
 
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
 .article-list {
   width: 100%;
   margin-left: auto;
@@ -93,6 +106,18 @@ main {
   border-radius: 8px;
   margin-bottom: 15px;
   border: 1px solid #2d2e30;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.summary {
+  color: #9b9c9d;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.article-list time {
+  color: #dadadb;
 }
 
 .article-list:hover {
@@ -100,8 +125,9 @@ main {
   transition: all 0.2s ease-in-out;
 }
 
-.article-list a {
-  margin-left: 30px;
+.read-more {
+  color: #dadadb;
+  text-decoration: underline;
 }
 
 .back-button {
@@ -116,6 +142,10 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.article-single li {
+  line-height: 1.7;
 }
 
 article time {
@@ -160,6 +190,17 @@ i:hover {
 
 /* define the rule for smartphone screen and lower dimensions screen*/
 @media screen and (max-width: 480px) {
+
+  .article-list {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .article-list a {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
   .icon-container {
     width: 50%;
   }

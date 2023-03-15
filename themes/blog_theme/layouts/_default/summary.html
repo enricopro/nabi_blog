@@ -4,11 +4,9 @@
     {{ range .Params.tags }}
     <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
     {{ end }}
-    <div>
-      {{ .Summary }}
-      {{ if .Truncated }}
-      <a href="{{ .Permalink }}">Read more...</a>
-      {{ end }}
+    <div class="summary">
+      {{ .Summary | truncate 200}}
+      <br/>
     </div>
     <time datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "02.01.2006" }} - Nabi Technology</time>
   </a>
