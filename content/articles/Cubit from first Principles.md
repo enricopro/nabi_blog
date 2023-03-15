@@ -1,6 +1,6 @@
 ---
 title: "Cubit from first Principles"
-date: 2023-02-22
+date: 2023-03-14
 draft: false
 ---
 

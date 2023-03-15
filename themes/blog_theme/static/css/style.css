@@ -30,11 +30,7 @@ a {
   text-decoration: none;
 }
 
-hr {
-  height: 40px;
-  background-color: transparent;
-  border: none;
-}
+
 
 .container {
   min-height: 100vh;
@@ -90,6 +86,12 @@ main {
 main img {
   max-width: 100%;
   height: auto;
+  display: block;
+  margin: auto;
+}
+
+main iframe {
+  max-width: 100%;
   display: block;
   margin: auto;
 }

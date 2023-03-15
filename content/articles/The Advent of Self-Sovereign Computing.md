@@ -1,6 +1,6 @@
 ---
 title: "The Advent of Self-Sovereign Computing"
-date: 2023-02-22
+date: 2023-03-15
 draft: false
 ---
 
@@ -38,7 +38,9 @@ Bitcoin has reminded me of these lessons, and I want to treasure and share them,
 
 *What’s Self-Sovereign Computing? Well, what’s a computer?*
 
-[![&#39;A Bicycle of the Mind&#39; - Steve Jobs on the Computer - YouTube](https://img.youtube.com/vi/L40B08nWoMk/0.jpg)](https://www.youtube.com/watch?v=L40B08nWoMk)
+{{< rawhtml >}}    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/L40B08nWoMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+{{< /rawhtml >}}
 
 At present, despite the astounding computing power they have achieved, personal computers are mostly used as network devices that delegate most operations to *servers*. This practice shifts the locus of control, from the hands of the individual to the companies operating such servers, which occupy the position of feudal lords in the
 hierarchy that has come to be created on the Web.

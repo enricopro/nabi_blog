@@ -1,6 +1,6 @@
 ---
 title: "The Clash of Nodes in 2023"
-date: 2023-02-22
+date: 2023-03-13
 draft: false
 slug: "the-clash-of-nodes-in-2023"
 ---
