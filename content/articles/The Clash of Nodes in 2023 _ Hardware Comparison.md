@@ -52,7 +52,7 @@ We will compare the 5 devices in the following 9 categories to see how they perf
 This comparison will not take into account the different software the machines are equipped with, but only the hardware, for two reasons:  
 
 - Any software can be installed on each of these personal servers, including that of the competitors.
-- As seen in [Cubit from First Principles](https://docs.google.com/document/u/0/d/1-VvpsU733d_kSb1iQbiyINKSyPIGx_MR3S_Rhaw6hDI/edit), when it comes to software the subjectivity of the individual using the machine is often a more determining criterion than any objective technical difference.
+- As seen in [Cubit from First Principles](https://blog.nabi.technology/articles/cubit-from-first-principles/), when it comes to software the subjectivity of the individual using the machine is often a more determining criterion than any objective technical difference.
 
 Let’s get started with the number 1.
 
@@ -104,19 +104,19 @@ Learn more on [ECC RAM](https://en.wikipedia.org/wiki/ECC_memory) and what [Linu
 
 Regarding storage, there are two important parameters to consider, namely capacity and speed.
 
-##### Storage Capacity
+#### Storage Capacity
 
 Below is the graph showing the maximum amount of storage with which the 5 different devices are provided. Cubit is the only one that can mount two SSDs, possibly in RAID configuration.
 
 ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*vTWG9AmVOFj5fIlVLC4qTg.png)
 
-##### Speed
+#### Speed
 
 The RP4 fails to take full advantage of the speed of the SATA SSD disk and leaves much performance unused (this explains the difference with the Model 2, which is equipped with a comparable disk).
 
 The Tanto, the Embassy Pro and Cubit can use NVMe disks that are much more performing, although the RockPro64 (Tanto’s board) cannot take advantage of these disks at 100 percent.
 
-![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*wpC5lV6fN3DzzPaempth3A.png)
+![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*9GZH43Ghf6xMeuKWL8_aSw.png)
 
 Sources:
 
@@ -161,7 +161,7 @@ The Tanto, Model 2 and especially the Embassy Pro cannot take advantage of the s
 
 ## 7. System Stability
 
-As we explored in detail in [Cubit from First Principles](https://docs.google.com/document/u/0/d/1-VvpsU733d_kSb1iQbiyINKSyPIGx_MR3S_Rhaw6hDI/edit), we at Nabi consider this category to be the most important for a personal server, since these types of devices differ (or should differ) from ordinary PCs precisely in the aspect of stability and reliability.
+As we explored in detail in [Cubit from First Principles](https://blog.nabi.technology/articles/cubit-from-first-principles/), we at Nabi consider this category to be the most important for a personal server, since these types of devices differ (or should differ) from ordinary PCs precisely in the aspect of stability and reliability.
 
 ![](https://miro.medium.com/v2/resize:fit:640/format:webp/1*vB3ST1i4K6MJCbgVJ_eeNg.png)
 
@@ -207,7 +207,7 @@ The prices of the various devices make it clear that we are comparing two differ
 
 We have come to the last act of this guide, the showdown to declare the winner in the respective price categories.
 
-##### Low Range
+#### Low Range
 
 ![](https://miro.medium.com/v2/resize:fit:606/format:webp/1*KoFmi6tLeV_L_P3Ex4AQGA.png)
 
@@ -225,7 +225,7 @@ Specifically,compared to the Embassy, the Model 2 offers:
 
 The comparison between the Embassy and the Tanto is not so clear because of the price difference. We decided to place the Tanto in second place since our hearts ache to connect a disk via an USB port. 💔
 
-##### High Range
+#### High Range
 
 ![](https://miro.medium.com/v2/resize:fit:598/format:webp/1*RsTydvXvnzbfDRbhuBviiw.png)
 

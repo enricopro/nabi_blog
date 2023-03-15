@@ -8,7 +8,7 @@ draft: false
 
 ![cubit blueprint](https://miro.medium.com/v2/resize:fit:828/format:webp/1*DggO67fLYW-iRgQ6aTaIWA.jpeg)
 
-Our intent was clear early on: to create the best computers for the Self-Sovereign Individual. What this meant, however, was not well defined. [The Advent of Self-Sovereign-Computing](https://medium.com/@pippellia/the-advent-of-self-sovereign-computing-a797b463b55e) requires rethinking the paradigm of computation, because it was the fallacies of the current mindset that gave rise to the problems we know: data mining, surveillance economy, financial repression, to name just a few.
+Our intent was clear early on: to create the best computers for the Self-Sovereign Individual. What this meant, however, was not well defined. [The Advent of Self-Sovereign-Computing](https://blog.nabi.technology/articles/the-advent-of-self-sovereign-computing/) requires rethinking the paradigm of computation, because it was the fallacies of the current mindset that gave rise to the problems we know: data mining, surveillance economy, financial repression, to name just a few.
 
 We approached the problem rigorously, avoiding stumbling over our preconceptions and trying to the best of our ability to build understanding from first principles. We have not yet reached the end of this research; this is what we have understood so far.
 
