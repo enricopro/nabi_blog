@@ -127,6 +127,22 @@ main iframe {
   transition: all 0.2s ease-in-out;
 }
 
+.article-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.thumbnail {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
 .read-more {
   color: #dadadb;
   text-decoration: underline;
@@ -196,6 +212,20 @@ i:hover {
   .article-list {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .article-list-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .thumbnail {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-radius: 8px;
   }
 
   .article-list a {

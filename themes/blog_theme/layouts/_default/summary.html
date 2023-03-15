@@ -1,13 +1,18 @@
 <article class="article-list">
-  <a href="{{ .Permalink }}">
-    <h1 class="summary-title">{{ .Title }}</h1>
-    {{ range .Params.tags }}
-    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-    {{ end }}
-    <div class="summary">
-      {{ .Summary | truncate 200}}
-      <br/>
+  <a class="article-list-container" href="{{ .Permalink }}">
+    <div>
+      <h1 class="summary-title">{{ .Title }}</h1>
+      {{ range .Params.tags }}
+      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+      <div class="summary">
+        {{ .Summary | truncate 200}}
+        <br/>
+      </div>
+      <time datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "02.01.2006" }} - Nabi Technology</time>
     </div>
-    <time datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "02.01.2006" }} - Nabi Technology</time>
+    <div>
+      <img class="thumbnail" src="{{ with .Params.thumbnail }}{{ . }}{{ end }}" />
+    </div>
   </a>
 </article>

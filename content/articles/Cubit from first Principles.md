@@ -1,5 +1,6 @@
 ---
 title: "Cubit from first Principles"
+thumbnail: "https://miro.medium.com/v2/resize:fit:828/format:webp/1*DggO67fLYW-iRgQ6aTaIWA.jpeg"
 date: 2023-03-14
 draft: false
 ---

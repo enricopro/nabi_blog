@@ -1,5 +1,6 @@
 ---
 title: "The Advent of Self-Sovereign Computing"
+thumbnail: "https://miro.medium.com/v2/resize:fit:875/0*1QGT3nKFSta-rG8c.jpg"
 date: 2023-03-15
 draft: false
 ---

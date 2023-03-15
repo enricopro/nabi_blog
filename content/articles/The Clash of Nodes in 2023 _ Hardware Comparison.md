@@ -1,5 +1,6 @@
 ---
 title: "The Clash of Nodes in 2023"
+thumbnail: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*GlU-nE8LpQGMaPvtLH5J3g.png"
 date: 2023-03-13
 draft: false
 slug: "the-clash-of-nodes-in-2023"
