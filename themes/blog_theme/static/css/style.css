@@ -116,6 +116,7 @@ main iframe {
   color: #9b9c9d;
   line-height: 1.6;
   margin-bottom: 12px;
+  padding-right: 30px;
 }
 
 .article-list time {
@@ -136,10 +137,8 @@ main iframe {
 
 .thumbnail {
   width: 100%;
-  max-width: 200px;
+  max-height: 380px;
   height: auto;
-  margin-right: 10px;
-  margin-left: 10px;
   border-radius: 5px;
 }
 
@@ -217,6 +216,10 @@ i:hover {
   .article-list-container {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .summary {
+    padding-right: 0px;
   }
 
   .thumbnail {
