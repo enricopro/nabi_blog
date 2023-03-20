@@ -1,7 +1,20 @@
 <header class="header">
-  <div class="one-third"></div>
-	<a href="{{ .Site.BaseURL }}">
-    <img src="{{ "img/logo.png" | relURL }}" alt="Logo" width="300" />
-  </a>
-  <div class="one-third"></div>
+  <div class="header-bar">
+    <div class="left-header">
+      <p class="product-by"><b>product by</b></p>
+      <a href="https://nabi.technology" target="_blank">
+        <img src="{{ "img/logo.png" | relURL }}" alt="Nabi" width="56" />
+      </a>
+    </div>
+    <div class="right-header">
+      <a href="https://nabi.technology/"><i class="fa fa-globe fa-xl"></i></a>
+      <a href="bit.ly/3AReQQT"><i class="fa-brands fa-discord fa-xl"></i></a>
+      <a href="bit.ly/3RxlxhW"><i class="fa fa-twitter fa-xl"></i></a>
+    </div>
+  </div>
+  <div className="logo-container">
+    <a href="{{ .Site.BaseURL }}">
+      <img src="{{ "img/blog.png" | relURL }}" alt="Logo" width="300" />
+    </a>
+  </div>
 </header>
