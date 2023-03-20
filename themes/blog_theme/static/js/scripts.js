@@ -1,6 +1,3 @@
-require("dotenv").config();
-
-
 function subscribe() {
   //check if the string user_email is a valid email
   var user_email = document.getElementById("usr_mail").value;
