@@ -87,7 +87,7 @@ Although these benchmarks are not perfect, they give a good approximation of the
 
 As you can see from the graph, the range of performance is really substantial, from the Embassy One to the Cubit, which is about 14 times more powerful.
 
-Source: [Cpu benchmark](https://miro.medium.com/v2/resize:fit:720/format:webp/1*bikmZ1PsRijtLkD6hdEOUw.png)
+Source: [Cpu benchmark](https://www.cpubenchmark.net/compare/3667vs3549vs4861/Intel-Celeron-J4125-vs-Intel-i7-10510U-vs-AMD-Ryzen-Embedded-V2516)
 
 ## 3. RAM
 
