@@ -1,8 +1,16 @@
+---
+title: "An end, and a new beginning"
+thumbnail: "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*tZ_3vWWt3-h4BN9dM0LIBg.jpeg"
+date: 2023-04-15
+draft: false
+---
+
+
 # An end, and a new beginning
 
 Many things have happened in the last period, about which we have not been able to keep you updated. Now we will.
 
-![idea-g311d3a070_1920.jpg](/home/filippo/Downloads/idea-g311d3a070_1920.jpg)
+![image](https://user-images.githubusercontent.com/108896743/232302407-4089d0db-75fc-41b1-863c-12c70602f385.png)
 
 *Image by <a href="https://pixabay.com/users/qimono-1962238/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1876659">Arek Socha*</a>
 
@@ -26,7 +34,7 @@ I think a lot of startups make these kinds of mistakes, but that's okay, because
 
 Instead of finding a new name, we will rename the old Cubit to Cubit Pro and freeze this project for the future. The new Cubit will share the design and form factor with its more powerful brother, but nothing else.
 
-![](/home/filippo/.var/app/com.github.marktext.marktext/config/marktext/images/2023-04-15-14-45-39-comparison%207.jpg)
+file:///home/filippo/Pictures/Cubit_odroid_h3/Printer%20GoBrrr/comparison%207.jpg![image](https://user-images.githubusercontent.com/108896743/232302365-91ab4f7d-ae82-4e6d-b5de-c06becd2c4cf.png)
 
 *Two new design for Cubit*
 
